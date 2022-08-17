@@ -33,24 +33,27 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID
+        contactConfig.YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage:
+              "Email successfully sended! Thank you for your message",
             variant: "success",
             show: true,
+            message: "",
           });
         },
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Failed to send!, ${error.text}`,
             variant: "danger",
             show: true,
+            message: "",
           });
           document.getElementsByClassName("co_alert")[0].scrollIntoView();
         }
@@ -109,7 +112,7 @@ export const ContactUs = () => {
                 ""
               )}
             </address>
-            <p>{contactConfig.description}</p>
+            <p>{contactConfig.description} &#128513;</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">

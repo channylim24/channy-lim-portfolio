@@ -1,166 +1,157 @@
-const logotext = "JOHN";
+const logotext = "Channy";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+  title: "Channy Lim",
+  description: "I’m Channy Lim front end developer, based in Batam, Indonesia",
 };
 
 const introdata = {
-    title: "I’m John Doe",
-    animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+  title: "I’m Channy Lim",
+  animated: {
+    first: "A front end developer",
+    second: "I develop websites with React JS",
+    third: "I code cool websites",
+  },
+  description: `Graduated from Glints Academy in 2022, I'm specialized in creating websites with React JS, Redux, and so on.`,
+  description2: `Highly anticipating bright future aheads of me!`,
+  // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+  title: "About myself",
+  aboutme:
+    "I'm a Batam based Junior Front End Developer, I have finished my Front End Development Bootcamp at Glints Academy on January 2022. I feel very confident with every achievements and experiences I got from bootcamp! Can't wait to explore more!",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+const achievements = [
+  {
+    title: "Final Project Team Studybuds' Scrum Master",
+    where: "Glints Academy",
+    date: "2022",
+  },
+  {
+    title: "Mini Project Team B's Stack Leader",
+    where: "Glints Academy",
+    date: "2021",
+  },
+  {
+    title: "School Representation for Batam Regional Accounting Olympiad",
+    where: "SMK Putra Batam (Vocational School)",
+    date: "2016",
+  },
+  {
+    title: "2nd place for Sambas District English Story Telling Competition",
+    where: "SMP N 2 Jawai (Middle School)",
+    date: "2012",
+  },
+  {
+    title: "1st place for Jawai Sub-district English Story Telling Competition",
+    where: "SMP N 2 Jawai (Middle School)",
+    date: "2012",
+  },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const skills = [
+  {
+    name: "Javascript",
+    value: 80,
+  },
+  {
+    name: "React JS",
+    value: 80,
+  },
+  {
+    name: "CSS/SCSS",
+    value: 88,
+  },
+  {
+    name: "Tailwind CSS",
+    value: 85,
+  },
+  {
+    name: "English Language",
+    value: 90,
+  },
+  {
+    name: "Korean Language",
+    value: 60,
+  },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
+  {
+    title: "UI & UX Design",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  },
+  {
+    title: "Mobile Apps",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  },
+  {
+    title: "Wordpress Design",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+const dataportfolio = [
+  {
+    img: "https://i.ibb.co/41sQz0N/see-event.png",
+    description:
+      "The mini project task from Glints Academy, created by our team with me as a Front End Stack Leader. Stacks: ReactJS, Redux Thunk, SASS (7 work days)",
+    link: "https://see-event-team-b.netlify.app/",
+  },
+  {
+    img: "https://i.ibb.co/sKf1Vcz/studybuds.png",
+    description:
+      "The final project task from Glints Academy, created by our team with me as a Scrum Master. Stacks: ReactJS, Redux Saga, SASS (30 work days)",
+    link: "https://studybuds.netlify.app/",
+  },
+  {
+    img: "https://i.ibb.co/b5LVXbC/liquid-distortion.png",
+    description: "The slider project I have created using rgbKineticSlider",
+    link: "https://channy-liquid-distortion-slider.netlify.app/",
+  },
+  {
+    img: "https://i.ibb.co/p1psSQK/wibe.png",
+    description:
+      "The project I have created using these stacks: ReactJS, styled components, framer motion, GSAP Timeline, Locomotive Scroll.",
+    link: "https://channy-wibe-studio.netlify.app/",
+  },
+  {
+    img: "",
+    description: "More projects are coming soon.",
+    link: "",
+  },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+  YOUR_EMAIL: "channylim24@gmail.com",
+  YOUR_FONE: "(+62) 895-6147-18339",
+  description:
+    "To get to know me better, feel free to contact me! I'll make sure to reply as soon as possible!",
+  YOUR_SERVICE_ID: "service_aywozvi",
+  YOUR_TEMPLATE_ID: "template_hno3pot",
+  YOUR_PUBLIC_KEY: "bOWSF8X2Bfs9-Xeee",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+  github: "https://github.com/channylim24",
+  // facebook: "https://facebook.com",
+  linkedin: "https://linkedin.com/in/channy-lim-660a3421b",
+  // twitter: "https://twitter.com",
+  // youtube: "https://youtube.com",
+  // twitch: "https://twitch.com",
 };
 export {
-    meta,
-    dataabout,
-    dataportfolio,
-    worktimeline,
-    skills,
-    services,
-    introdata,
-    contactConfig,
-    socialprofils,
-    logotext,
+  meta,
+  dataabout,
+  dataportfolio,
+  achievements,
+  skills,
+  services,
+  introdata,
+  contactConfig,
+  socialprofils,
+  logotext,
 };
