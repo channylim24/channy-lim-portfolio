@@ -28,7 +28,7 @@
 }
 
 .po_coming_soon {
-  background-color: #000;
+  background: var(--bg-color);
   font-size: 3rem;
   height: 225px;
   margin: 0;
