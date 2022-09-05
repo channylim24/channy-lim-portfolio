@@ -119,6 +119,12 @@ const dataportfolio = [
     link: "https://channy-wibe-studio.netlify.app/",
   },
   {
+    img: "https://i.ibb.co/PD4jcSR/Screenshot-2022-08-29-161213.png",
+    description:
+      "Korea Naver Webtoon website clone, available features: filter webtoon by scheduled day, search webtoon feature. Stacks: React Skeleton, ReactJS, Redux Thunk, SCSS - ON PROGRESS",
+    link: "https://channy-webtoon-kr-clone.netlify.app/",
+  },
+  {
     img: "",
     description: "More projects are coming soon.",
     link: "",

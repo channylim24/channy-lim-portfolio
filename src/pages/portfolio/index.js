@@ -30,7 +30,13 @@ export const Portfolio = () => {
                 )}
                 <div className="content">
                   <p>{data.description}</p>
-                  {data.img ? <a href={data.link}>view project</a> : ""}
+                  {data.img ? (
+                    <a target="_blank" href={data.link}>
+                      view project
+                    </a>
+                  ) : (
+                    ""
+                  )}
                 </div>
               </div>
             );
