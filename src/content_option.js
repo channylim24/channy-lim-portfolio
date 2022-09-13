@@ -125,6 +125,12 @@ const dataportfolio = [
     link: "https://channy-webtoon-kr-clone.netlify.app/",
   },
   {
+    img: "https://i.ibb.co/4gtLDbs/Screenshot-2022-09-13-120829.png",
+    description:
+      "CRUD Project. Created with: React JS, Axios, Redux Saga, and TailwindCSS",
+    link: "https://channy-blog-post.netlify.app/",
+  },
+  {
     img: "",
     description: "More projects are coming soon.",
     link: "",
