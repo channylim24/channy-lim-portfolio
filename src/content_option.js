@@ -59,6 +59,10 @@ const skills = [
     value: 80,
   },
   {
+    name: "Redux",
+    value: 80,
+  },
+  {
     name: "CSS/SCSS",
     value: 88,
   },
